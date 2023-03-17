@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-   *main - Entry point
-   *Description : A c progrm that use if statements check if numnber positive
-   *Return : alawys 0 (success)
+/**
+ *main - Entry pint
+ *Discription: 'Check for number if it is positive or negative'
+ *Return: always 0
  */
 int main(void)
 {
@@ -24,7 +24,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d number is negative);
+		printf("%d is negative);
 	}
 	return (0);
 }
