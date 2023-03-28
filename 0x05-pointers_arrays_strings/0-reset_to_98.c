@@ -3,7 +3,9 @@
 /**
  *reset : take a pointer as argument and make it 98
  *@n : parameter
- *returning : nothing
+ *returning : nothin
+ *
+ *
  */
 
 void reset_to_98(int *n)
