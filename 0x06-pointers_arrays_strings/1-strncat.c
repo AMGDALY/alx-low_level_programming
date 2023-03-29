@@ -11,12 +11,12 @@
  * Return: pointer to resulting string @dest
  */
 
-char *_strncat(char *dest, chr *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int c, i;
 
 	c = 0;
-	
+
 	/*find size of dest array*/
 	while (dest[c])
 		c++;
