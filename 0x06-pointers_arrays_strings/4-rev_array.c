@@ -8,7 +8,7 @@
  * Return: void
  */
 void reverse_array(int *a, int n)
-{	
+{
 	int i, temp, cond;
 
 	if (n % 2 == 0)
