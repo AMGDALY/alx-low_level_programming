@@ -24,7 +24,7 @@ void print_diagsums(int *a, int size)
 	diag_sum = 0;
 	while (i < len - size + 1)
 	{
-		diag_sum += a[i;
+		diag_sum += a[i];
 		i += size - 1;
 	}
 	printf("%d\n", diag_sum);
