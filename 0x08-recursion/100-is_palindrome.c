@@ -23,7 +23,7 @@ return (n);
  */
 int is_plaindrome(char *s)
 {
-int end = lst_index(s);
+int end = last_index(s);
 
 return (check(s, 0, end - 1, end % 2));
 }
