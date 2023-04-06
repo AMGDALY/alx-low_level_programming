@@ -23,13 +23,13 @@ char *move_past_star(char *s2)
  */
 int inception(char *s1, char *s2)
 {
-	int rest = 0;
+	int ret = 0;
 
 	if (*s1 == 0)
 		return (0);
 	if (*s1 == *s2)
-		rest += wildcmp(s1 + 1, s2 + 1);
-	return (rest);
+		ret += wildcmp(s1 + 1, s2 + 1);
+	return (ret);
 }
 /**
  * wildcmp - compares two strings lexlcographically
