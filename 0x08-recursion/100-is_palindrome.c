@@ -5,7 +5,7 @@
  * @s: string to check
  * Return: int
  */
-int is_plaindrome(char *s);
+int is_palindrome(char *s);
 int check(char *s, int start, int end, int mod);
 int last_index(char *s)
 {
@@ -17,11 +17,11 @@ return (n);
 }
 
 /**
- * is_plaindrome - check if a string is a plaindrome
+ * is_palindrome - check if a string is a plaindrome
  * @s: string to check
  * Return: 0 otr 1
  */
-int is_plaindrome(char *s)
+int is_palindrome(char *s)
 {
 int end = last_index(s);
 
@@ -29,7 +29,7 @@ return (check(s, 0, end - 1, end % 2));
 }
 
 /**
- * check - checker for the plaindrome
+ * check - checker for the palindrome
  * @s: string
  * @start: int moves from right to left
  * @end: int moves from leeft to right
