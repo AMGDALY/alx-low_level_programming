@@ -8,7 +8,7 @@
 
 int _strlen(char *s)
 {
-	int size = 0l
+	int size = 0;
 		for (; s[size] != '\0'; size++)
 		;
 		return (size);
@@ -22,7 +22,7 @@ int _strlen(char *s)
 char *str_concat(char *s1, char *s2)
 {
 	int size1, size2, i;
-	char *n;
+	char *M;
 
 	if (s1 == NULL)
 		s1 = '\0';
@@ -31,7 +31,7 @@ char *str_concat(char *s1, char *s2)
 
 	size1 = _strlen(s1);
 	size2 = _strlen(s2);
-	m = malloc((size1 + _ size2) * sizeof(char) + 1);
+	m = malloc((size1 +  size2) * sizeof(char) + 1);
 	if (m == 0)
 		return (0);
 	for (i = 0; i <= size1 + size2; i++)
